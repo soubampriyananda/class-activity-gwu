@@ -1,0 +1,35 @@
+nav {
+    background-color: grey;
+    height: 60px;
+}
+.menu-item{
+    display:inline-block;
+    width: 100px;
+    height: 40px;
+    color:rgb(33, 35, 35);
+    background-color: bisque;
+    text-align:center;
+    vertical-align: middle;
+    padding-top: 10px;
+    
+}
+.sidebar { 
+    width: 29%;
+    background-color: aquamarine;
+    float:left;
+    height: 800px;
+
+}
+.main-content { 
+    width: 70%;
+    background-color: aqua;
+    float: right;
+    height: 800px;
+
+}
+.pet1 img {
+    width: 100 px;
+}
+.pet-name img{
+    padding: 20px;
+}
