@@ -1,0 +1,52 @@
+.row {
+    width:100%;
+
+}
+.col12 {
+    width:100%;
+}
+
+.col9 {
+width:75%;
+
+}
+.col6{
+    width:50%;
+}
+.col3 {
+    width:25%;
+}
+.banner{
+    background-image:url("images/HeroImage.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    .heroGridArea {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        position: relative;
+        align-items: center;
+      }
+}
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
