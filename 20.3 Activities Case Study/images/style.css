@@ -1,0 +1,44 @@
+.customNav {
+    background-color:rgb(70, 70, 69);
+    padding:20px 10px;
+}
+.customNav a{
+    color:rgb(224, 228, 225) !important;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.heroBackground {
+background-image: url(../images/bluebackground.png);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+height:700px;
+display:flex;
+justify-content: center;
+}
+
+.heroContent h1 {
+    color:white;
+    text-align:center;
+    size:48px;
+}
+
+.contentSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.heading {
+    color:blue;
+    margin-bottom:40px;
+}
+.sectionHeading {
+    background-color:blue;
+    text-align:center;
+    color:white;
+    font-weight:400;
+    font-size:40px;
+
+}

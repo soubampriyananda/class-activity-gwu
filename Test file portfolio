@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>My Portfolio</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Insert information about yourself here.</p>
-    </section>
-    <section id="projects">
-      <h2>My Projects</h2>
-      <ul>
-        <li>
-          <h3>Project 1</h3>
-          <p>Insert a brief description of project 1 here.</p>
-        </li>
-        <li>
-          <h3>Project 2</h3>
-          <p>Insert a brief description of project 2 here.</p>
-        </li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Insert contact information here.</p>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright 2021</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>UX Designer Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>UX Designer Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>Hello, my name is [Your Name] and I am a UX Designer. I have [Number of Years] years of experience in the industry and have worked on [List of Projects or Skills].</p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Project 1</h3>
+            <p>[Brief description of project and your role in it]</p>
+          </li>
+          <li>
+            <h3>Project 2</h3>
+            <p>[Brief description of project and your role in it]</p>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright [Your Name] [Current Year]</p>
+    </footer>
+  </body>
 </html>
